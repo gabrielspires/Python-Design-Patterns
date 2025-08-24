@@ -72,7 +72,7 @@ class BlackDragon:
 
 
 def release_dragon(dragon: Dragon):
-    # This 'isintance' only works because of the runtime_checkable decorator.
+    # The 'isinstance' only works because of the runtime_checkable decorator.
     if isinstance(dragon, Dragon):
         dragon.fly()
         dragon.fire_breath()
