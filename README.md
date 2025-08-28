@@ -10,6 +10,8 @@ This project provides **easy-to-understand code examples** of the most important
   - [Composition Over Inheritance](#composition-over-inheritance)
   - [Apply Loose Coupling](#apply-loose-coupling)
   - [Program to Interfaces](#program-to-interfaces)
+- [SOLID](#solid)
+  - [Single Responsibility Principle](#single-responsibility-principle)
 - [Creational Patterns](#creational-patterns)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
@@ -48,6 +50,14 @@ See: [`apply_loose_coupling.py`](Foundation-Design-Principles/apply_loose_coupli
 Use abstract base classes and protocols to define contracts for your classes, enabling flexible and robust code.
 
 See: [`program_to_interfaces.py`](Foundation-Design-Principles/program_to_interfaces.py)
+
+## SOLID
+
+### Single Responsibility Principle
+
+A class should have only one reason to change, meaning it should be responsible for a single part of the program's functionality. This makes code easier to maintain and extend. For example, instead of one class handling both car actions and race results, split responsibilities into separate classes.
+
+See: [`single_responsibility.py`](SOLID-Principles/single_responsibility.py)
 
 ## Creational Patterns
 
