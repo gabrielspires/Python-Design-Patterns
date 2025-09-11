@@ -12,6 +12,7 @@ This project provides **easy-to-understand code examples** of the most important
   - [Program to Interfaces](#program-to-interfaces)
 - [SOLID](#solid)
   - [Single Responsibility Principle](#single-responsibility-principle)
+  - [Open-Closed Principle](#open-closed-principle)
 - [Creational Patterns](#creational-patterns)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
