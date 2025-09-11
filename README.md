@@ -59,6 +59,13 @@ A class should have only one reason to change, meaning it should be responsible 
 
 See: [`single_responsibility.py`](SOLID-Principles/single_responsibility.py)
 
+### Open-Closed Principle
+
+Once a software entity is defined and implemented, it should not be changed to add new functionality. Instead, the entity should be extended through inheritance or interfaces to accommodate new requirements and behaviors.
+
+See: [`open_closed.py`](SOLID-Principles/open_closed.py)
+
+
 ## Creational Patterns
 
 *Coming soon...*
