@@ -13,6 +13,7 @@ This project provides **easy-to-understand code examples** of the most important
 - [SOLID](#solid)
   - [Single Responsibility Principle](#single-responsibility-principle)
   - [Open-Closed Principle](#open-closed-principle)
+  - [Liskov Substitution Principle](#liskov-substitution-principle)
 - [Creational Patterns](#creational-patterns)
 - [Structural Patterns](#structural-patterns)
 - [Behavioral Patterns](#behavioral-patterns)
@@ -65,6 +66,12 @@ See: [`single_responsibility.py`](SOLID-Principles/single_responsibility.py)
 Once a software entity is defined and implemented, it should not be changed to add new functionality. Instead, the entity should be extended through inheritance or interfaces to accommodate new requirements and behaviors.
 
 See: [`open_closed.py`](SOLID-Principles/open_closed.py)
+
+### Liskov Substitution Principle
+
+According to the LSP, if a program uses objects of a superclass, then the substitution of these objects with objects of a subclass should not change the correctness and expected behavior of the program.
+
+See: [`liskov_substitution.py`](SOLID-Principles/liskov_substitution.py)
 
 
 ## Creational Patterns
